@@ -9,8 +9,8 @@
                android:layout_height="wrap_content"
                android:layout_width="wrap_content"
                android:src="@drawable/south_africa_2010_small"
-               android:paddingTop="4dp"
-               android:paddingBottom="4dp"/>
+               android:layout_marginTop="4dp"
+               android:layout_marginBottom="4dp"/>
     <ImageView android:id="@+id/NextPoster"
                android:layout_height="wrap_content"
                android:layout_width="wrap_content"
@@ -38,5 +38,11 @@
               android:textColor="#BB000000"
               android:textStyle="bold"
               android:textSize="10sp"/>
-
+    <ImageView android:id="@+id/imageView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_centerInParent="true"
+               android:layout_marginTop="7dp"
+               android:src="@drawable/slider"/>
 </RelativeLayout>
