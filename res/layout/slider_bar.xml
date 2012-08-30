@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/slider_bar"
+              >
+    <ImageView android:id="@+id/PrevPoster"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:src="@drawable/south_africa_2010_small"
+               android:paddingTop="4dp"
+               android:paddingBottom="4dp"/>
+    <ImageView android:id="@+id/NextPoster"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginTop="4dp"
+               android:layout_marginBottom="4dp"
+               android:src="@drawable/italy_1934_small"/>
+    <TextView android:id="PrevText"
+              android:layout_height="wrap_content"
+              android:layout_width="48"
+              android:layout_toRightOf="@id/PrevPoster"
+              android:layout_marginTop="10dp"
+              android:gravity="left"
+              android:text="Argentina 1978"
+              android:textColor="#BB000000"
+              android:textStyle="bold"
+              android:textSize="10sp"/>
+    <TextView android:id="PrevText"
+              android:layout_height="wrap_content"
+              android:layout_width="48"
+              android:layout_toLeftOf="@id/NextPoster"
+              android:layout_marginTop="10dp"
+              android:gravity="right"
+              android:text="Argentina 1978"
+              android:textColor="#BB000000"
+              android:textStyle="bold"
+              android:textSize="10sp"/>
+
+</RelativeLayout>
